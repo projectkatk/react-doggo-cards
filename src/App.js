@@ -3,7 +3,7 @@ import Dog from "./Dog"
 export default function App(props) {
   setTimeout(() => {
     document.querySelector('.bounce').classList.add('bounced');
-  }, 100)
+  }, 1000)
   
     return (
       <div>

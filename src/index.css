@@ -27,9 +27,11 @@ h1 {
 
 h1 .fa-heart {
   display: block;
-  animation: heart ease  1s forwards;
+  animation: heart ease 1s forwards;
+  animation-delay: 0.9s;
   position: absolute;
   top: 200px;
+  opacity: 0;
   left: 43%;
 }
 
